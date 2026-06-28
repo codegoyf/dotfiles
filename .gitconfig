@@ -1,0 +1,12 @@
+[user]
+	name = Michael McDonald
+	email = 835798+codegoyf@users.noreply.github.com
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[init]
+	defaultBranch = main
+[pull]
+	rebase = true
