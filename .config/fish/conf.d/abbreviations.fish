@@ -2,7 +2,9 @@
 alias ls lsd
 alias ll 'lsd -l'
 alias la 'lsd -la'
+alias lt 'lsd --tree'
 alias cat bat
+alias reload 'exec fish'
 
 # git - core
 abbr -a g git
@@ -96,3 +98,12 @@ abbr -a ghiv 'gh issue view'
 
 # gh - repo
 abbr -a ghro 'gh repo view --web'
+
+# yadm
+abbr -a ys 'yadm status'
+abbr -a ya 'yadm add'
+abbr -a yc 'yadm commit'
+abbr -a ycm 'yadm commit -m'
+abbr -a yp 'yadm push'
+abbr -a yd 'yadm diff'
+abbr -a yds 'yadm diff --staged'
