@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+set -e
+
+echo "==> Starting bootstrap..."
+
+# Install Homebrew if not present
+if ! command -v brew &>/dev/null; then
+    echo "==> Installing Homebrew..."
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    eval "$(/opt/homebrew/bin/brew shellenv bash)"
+fi
+
+# Install all packages from Brewfile
+echo "==> Installing Homebrew packages..."
+brew bundle install --global
+
+# Set fish as default shell
+FISH_PATH="/opt/homebrew/bin/fish"
+if [[ "$SHELL" != "$FISH_PATH" ]]; then
+    echo "==> Setting fish as default shell..."
+    if ! grep -qF "$FISH_PATH" /etc/shells; then
+        echo "$FISH_PATH" | sudo tee -a /etc/shells
+    fi
+    chsh -s "$FISH_PATH"
+fi
+
+# Install mise tools (node, pnpm)
+if command -v mise &>/dev/null; then
+    echo "==> Installing mise tools..."
+    mise install
+fi
+
+echo "==> Bootstrap complete. Open a new terminal to apply all changes."
