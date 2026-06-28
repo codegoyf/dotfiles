@@ -69,3 +69,30 @@ abbr -a gstl 'git stash list'
 # git - status
 abbr -a gst 'git status'
 abbr -a gss 'git status --short'
+
+# pnpm
+abbr -a pn pnpm
+abbr -a pni 'pnpm install'
+abbr -a pna 'pnpm add'
+abbr -a pnad 'pnpm add --save-dev'
+abbr -a pnrm 'pnpm remove'
+abbr -a pnd 'pnpm dev'
+abbr -a pnb 'pnpm build'
+abbr -a pns 'pnpm start'
+abbr -a pnt 'pnpm test'
+abbr -a pnx 'pnpm dlx'
+
+# gh - pull requests
+abbr -a ghprc 'gh pr create'
+abbr -a ghprl 'gh pr list'
+abbr -a ghprv 'gh pr view'
+abbr -a ghpro 'gh pr view --web'
+abbr -a ghprm 'gh pr merge'
+
+# gh - issues
+abbr -a ghil 'gh issue list'
+abbr -a ghic 'gh issue create'
+abbr -a ghiv 'gh issue view'
+
+# gh - repo
+abbr -a ghro 'gh repo view --web'
