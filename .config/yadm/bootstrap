@@ -30,4 +30,13 @@ if command -v mise &>/dev/null; then
     mise install
 fi
 
+# Install gh-poi if it is not already present
+if ! gh extension list | grep -q "gh-poi"; then
+    echo "Installing gh-poi extension..."
+    gh extension install seachicken/gh-poi
+else
+    echo "gh-poi is already installed."
+fi
+
+
 echo "==> Bootstrap complete. Open a new terminal to apply all changes."
