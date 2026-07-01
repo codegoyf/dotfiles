@@ -1,6 +1,6 @@
-# dotfiles
+# Michael's dotfiles
 
-Personal dotfiles managed with [yadm](https://yadm.io/).
+Personal dotfiles for my own macOS setup, managed with [yadm](https://yadm.io/). Not intended as a general-purpose template — feel free to borrow from it, but expect things tailored to my machine and preferences.
 
 ## Quick start
 
