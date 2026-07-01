@@ -20,7 +20,6 @@ Reopen your terminal when bootstrap finishes.
 | mise | `~/.config/mise/config.toml` |
 | git | `~/.gitconfig` |
 | homebrew | `~/.Brewfile` |
-| zsh | `~/.zshrc` |
 
 VSCode settings are synced via Settings Sync — not in this repo.
 
