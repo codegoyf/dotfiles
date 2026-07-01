@@ -15,11 +15,11 @@ Reopen your terminal when bootstrap finishes.
 
 | Tool | Config |
 |------|--------|
-| fish | `~/.config/fish/` |
-| ghostty | `~/.config/ghostty/config.ghostty` |
-| mise | `~/.config/mise/config.toml` |
-| git | `~/.gitconfig` |
-| homebrew | `~/.Brewfile` |
+| [fish](https://fishshell.com) | `~/.config/fish/` |
+| [ghostty](https://ghostty.org) | `~/.config/ghostty/config.ghostty` |
+| [mise](https://mise.jdx.dev) | `~/.config/mise/config.toml` |
+| [git](https://git-scm.com) | `~/.gitconfig` |
+| [homebrew](https://brew.sh) | `~/.Brewfile` |
 
 VSCode settings are synced via Settings Sync — not in this repo.
 
