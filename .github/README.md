@@ -16,6 +16,7 @@ Reopen your terminal when bootstrap finishes.
 | Tool | Config |
 |------|--------|
 | [fish](https://fishshell.com) | `~/.config/fish/` |
+| [starship](https://starship.rs) | `~/.config/starship.toml` |
 | [ghostty](https://ghostty.org) | `~/.config/ghostty/config.ghostty` |
 | [mise](https://mise.jdx.dev) | `~/.config/mise/config.toml` |
 | [git](https://git-scm.com) | `~/.gitconfig` |
