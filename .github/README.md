@@ -19,7 +19,9 @@ Reopen your terminal when bootstrap finishes.
 | [starship](https://starship.rs) | `~/.config/starship.toml` |
 | [ghostty](https://ghostty.org) | `~/.config/ghostty/config.ghostty` |
 | [mise](https://mise.jdx.dev) | `~/.config/mise/config.toml` |
+| [lsd](https://github.com/lsd-rs/lsd) | `~/.config/lsd/` |
 | [git](https://git-scm.com) | `~/.gitconfig` |
+| ssh (config only, not keys) | `~/.ssh/config` |
 | [homebrew](https://brew.sh) | `~/.Brewfile` |
 
 VSCode settings are synced via Settings Sync — not in this repo.
@@ -32,6 +34,7 @@ VSCode settings are synced via Settings Sync — not in this repo.
 2. Runs `brew bundle install --global` from `~/.Brewfile`
 3. Sets fish as the default shell (adds to `/etc/shells`, runs `chsh`)
 4. Runs `mise install` to install configured runtimes (Node, pnpm, etc.)
+5. Installs the `gh-poi` gh extension if missing
 
 ## Secrets
 
