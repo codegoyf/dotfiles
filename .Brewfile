@@ -14,6 +14,8 @@ brew "mise"
 brew "starship"
 # Yet Another Dotfiles Manager
 brew "yadm"
+# CLI for Git worktree management, designed for parallel AI agent workflows
+brew "worktrunk"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
 # Terminal emulator that uses platform-native UI and GPU acceleration
